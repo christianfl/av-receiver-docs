@@ -1,0 +1,16 @@
+<!-- Activating straight sound works different than the DSP sound options. -->
+
+<?xml version="1.0" encoding="utf-8"?>
+ <YAMAHA_AV cmd="PUT">
+  <Main_Zone>
+   <Surround>
+    <Program_Sel>
+     <Current>
+      <Straight>On</Straight>
+     </Current>
+    </Program_Sel>
+   </Surround>
+  </Main_Zone>
+ </YAMAHA_AV>
+ 
+ 

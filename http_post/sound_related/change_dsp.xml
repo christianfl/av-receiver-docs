@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <YAMAHA_AV cmd="PUT">
+  <Main_Zone>
+   <Surround>
+    <Program_Sel>
+     <Current>
+      <Sound_Program><!-- see values/dsp.md --></Sound_Program>
+     </Current>
+    </Program_Sel>
+   </Surround>
+  </Main_Zone>
+ </YAMAHA_AV>
+
+<!-- Receiver's answer: -->
+
+<YAMAHA_AV rsp="PUT" RC="0">
+ <Main_Zone>
+  <Surround>
+   <Program_Sel>
+    <Current></Current>
+   </Program_Sel>
+  </Surround>
+ </Main_Zone>
+</YAMAHA_AV>

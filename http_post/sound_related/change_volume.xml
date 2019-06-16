@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <YAMAHA_AV cmd="PUT">
+  <Main_Zone>
+   <Volume>
+    <Lvl>
+     <Val><!-- See values/volume.md --></Val>
+     <Exp>1</Exp>
+     <Unit>dB</Unit>
+    </Lvl>
+   </Volume>
+  </Main_Zone>
+ </YAMAHA_AV>
+
+<!-- Receiver's answer: -->
+
+<YAMAHA_AV rsp="PUT" RC="0">
+ <Main_Zone>
+  <Volume>
+   <Lvl></Lvl>
+  </Volume>
+ </Main_Zone>
+</YAMAHA_AV>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <YAMAHA_AV cmd="PUT">
+  <Main_Zone>
+   <Cursor_Control>
+    <Menu_Control><!-- See values/menu.md --></Menu_Control>
+   </Cursor_Control>
+  </Main_Zone>
+ </YAMAHA_AV>

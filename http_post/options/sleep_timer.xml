@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <YAMAHA_AV cmd="PUT">
+  <Main_Zone>
+   <Power_Control>
+    <Sleep><!-- See values/sleep_timer.md --></Sleep>
+   </Power_Control>
+  </Main_Zone>
+ </YAMAHA_AV>
+ 
+ <!-- Receiver's answer: -->
+ 
+ <YAMAHA_AV rsp="PUT" RC="0">
+  <Main_Zone>
+   <Power_Control>
+    <Sleep></Sleep>
+   </Power_Control>
+  </Main_Zone>
+ </YAMAHA_AV>

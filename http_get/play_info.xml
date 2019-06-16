@@ -1,0 +1,8 @@
+<!-- Get information about the current program on the receiver (e.g. Tuner: Artist and title, Spotify: Artist, title, album) -->
+
+<?xml version="1.0" encoding="utf-8"?>
+ <YAMAHA_AV cmd="GET">
+  <Tuner>
+   <Play_Info>GetParam</Play_Info>
+  </Tuner>
+ </YAMAHA_AV>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<YAMAHA_AV cmd="PUT">
+		<Main_Zone>
+			<Sound_Video>
+				<Adaptive_DRC>Off | Auto</Adaptive_DRC>
+			</Sound_Video>
+		</Main_Zone>
+	</YAMAHA_AV>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <YAMAHA_AV cmd="GET">
+  <Main_Zone>
+   <Basic_Status>
+    GetParam
+   </Basic_Status>
+  </Main_Zone>
+ </YAMAHA_AV>
+ 
+<!-- Example answer -->
+
+<YAMAHA_AV rsp="GET" RC="0">
+ <Main_Zone>
+  <Basic_Status>
+   <Power_Control>
+    <Power>On</Power>
+    <Sleep>Off</Sleep>
+   </Power_Control>
+   <Volume>
+    <Lvl>
+     <Val>-375</Val>
+     <Exp>1</Exp>
+     <Unit>dB</Unit>
+    </Lvl>
+    <Mute>Off</Mute>
+   </Volume>
+   <Input>
+    <Input_Sel>HDMI3</Input_Sel>
+    <Input_Sel_Item_Info>
+     <Param>HDMI3</Param>
+     <RW>RW</RW>
+     <Title> Selfdefined title </Title>
+     <Icon>
+      <On>/YamahaRemoteControl/Icons/icon004.png</On>
+      <Off></Off>
+     </Icon>
+     <Src_Name>Osdname:Model0000</Src_Name>
+     <Src_Number>1</Src_Number>
+    </Input_Sel_Item_Info>
+   </Input>
+   <Surround>
+    <Program_Sel>
+     <Current>
+      <Straight>Off</Straight>
+      <Enhancer>Off</Enhancer>
+      <Sound_Program>5ch Stereo</Sound_Program>
+     </Current>
+    </Program_Sel>
+    <_3D_Cinema_DSP>Auto</_3D_Cinema_DSP>
+   </Surround>
+   <Sound_Video>
+    <Tone>
+     <Bass>
+      <Val>0</Val>
+      <Exp>1</Exp>
+      <Unit>dB</Unit>
+     </Bass>
+     <Treble>
+      <Val>0</Val>
+      <Exp>1</Exp>
+      <Unit>dB</Unit>
+     </Treble>
+    </Tone>
+    <Direct>
+     <Mode>Off</Mode>
+    </Direct>
+    <HDMI>
+     <Standby_Through_Info>On</Standby_Through_Info>
+     <Output>
+      <OUT_1>On</OUT_1>
+     </Output>
+    </HDMI>
+    <Adaptive_DRC>Off</Adaptive_DRC>
+   </Sound_Video>
+  </Basic_Status>
+ </Main_Zone>
+</YAMAHA_AV>
