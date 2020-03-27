@@ -43,4 +43,4 @@ There is an official list on the Yamaha website which shows supported devices fo
 - Think about the organisation of the code
 
 ## Contributing
-If there are any missing GET/POST operations, feel free to add them. I did that by using MITMproxy on Linux, added the devices IP to the Android WIFI as a proxy and then looked into the traffic after tapping the buttons within the AV Controller app. You could also help by correcting mistakes or adding new devices to the supported devices list. Using my dcoumentation for creating a mobile device "app" or a desktop program would be highly appreciated.
+If there are any missing GET/POST operations, feel free to add them. I did that by using MITMproxy on Linux, added the devices IP to the Android WIFI as a proxy and then looked into the traffic after tapping the buttons within the AV Controller app. You could also help by correcting mistakes or adding new devices to the supported devices list. Using my documentation for creating a mobile device "app" or a desktop program would be highly appreciated.
