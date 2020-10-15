@@ -2,7 +2,7 @@
 	<YAMAHA_AV cmd="PUT">
 		<System>
 			<Party_Mode>
-				<Mode>On</Mode>
+				<Mode><!-- On | Off --></Mode>
 			</Party_Mode>
 		</System>
 	</YAMAHA_AV>
