@@ -8,6 +8,7 @@ They work by POSTing XML over HTTP to the receiver's built in webserver. The rec
 There is an official list on the Yamaha website which shows supported devices for their app. But I am not sure whether all devices work in the same way. I have only one model to test everything. If there is any receiver missing which works with the provided XML, feel free to make a pull request or open a new issue. Maybe I will reference to the original list from Yamaha in the future if I know that all of them work the same way. This is the list of tested devices:
 
 - Yamaha RX-V475
+- Yamaha RX-V1067
 
 ## Functions
 ### Already documented
